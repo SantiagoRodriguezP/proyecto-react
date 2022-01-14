@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../assets/logo-aranda.png';
-import logoSinco from '../assets/logoSinco.png';
-import md5 from 'md5';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/login.css';
 import Cookies from 'universal-cookie';
@@ -74,7 +72,7 @@ function Login() {
         <>
             <div className='container mt-5 mb-5'>
                 <div className='contenedor mx-auto'>
-                    <img srcSet={logoSinco} alt='logo' className='logo ' />
+                    <img srcSet={logo} alt='logo' className='logo ' />
                     <h1 className='mt-5'>Bienvenido</h1>
                     <p>Ingrese sus credenciales para acceder  a su cuenta</p>
                     <div className="form-group width">

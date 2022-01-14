@@ -3,7 +3,6 @@ import Cookies from 'universal-cookie';
 import { useNavigate, Link, } from 'react-router-dom';
 import '../styles/menu.css';
 import logo from '../assets/logo-aranda.png';
-import logoSinco from '../assets/logoSinco.png';
 import axios from 'axios';
 
 
@@ -105,7 +104,7 @@ function Menu() {
       <header className="page-header" >
         <nav>
           <Link to='../perfil'>
-            <img srcSet={logoSinco} alt='logo' className='logo ' />
+            <img srcSet={logo} alt='logo' className='logo ' />
           </Link>
           <ul className="admin-menu mt-2">
             <li className="menu-heading">
